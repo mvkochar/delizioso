@@ -18,6 +18,7 @@
 .home-main-title {
     width: 288px;
     margin-top: 22.93px;
+    font-family: "Raleway", serif;
     font-size: 80px;
     line-height: 1.1;
     color: #311F09;
@@ -66,6 +67,7 @@
 
 
 .home-welcome-title {
+    font-family: "Tinos", serif;
     font-size: 80px;
     line-height: 1.1;
     color: #311F09;
@@ -96,4 +98,221 @@
     font-size: 20px;
     text-align: center;
     color: #fff;
+}
+
+.home-popular {
+    margin-top: 164.78px;
+}
+
+.home-popular-title {
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    line-height: 2.5;
+    text-align: center;
+    color: #311F09;
+}
+
+.home-popular-categories {
+    margin-top: 60.07;
+    margin-left: 164px;
+    gap: 27.48px;
+}
+
+.home-popular-categories .popular-categories-btn {
+    width: 192.42px;
+    padding-top: 17.22px;
+    padding-bottom: 17.22px;
+    background-color: #D0CCC7;
+    border: 1px solid #D0CCC7;
+    border-radius: 162.94px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #311F09;
+}
+
+.home-popular-categories .categories-btn__active {
+    background-color: #311F09;
+    border: 1px solid #311F09;
+    color: #fff;
+}
+
+.home-popular-box {
+    margin-top: 60px;
+    margin-left: 164px;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 40.25px;
+}
+
+.home-popular-pagination {
+    width: fit-content;
+    margin: 88.57px auto 0;
+    gap: 30px;
+}
+
+.home-popular-pagination .pagination-btn {
+    width: 55px;
+    height: 55px;
+    background-color: rgba(255, 138, 0, .1);
+    border: 1px solid rgba(255, 138, 0, .1);
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FF8A00;
+}
+
+.home-popular-pagination .pagination-action {
+    background-color: #311F09;
+    border: 1px solid #311F09;
+}
+
+.home-popular-pagination .pagination-more {
+    background-color: transparent;
+    border: none;
+}
+
+.home-reserve {
+    margin-top: 201.5px;
+    padding-top: 86px;
+    padding-bottom: 87px;
+    background-color: rgba(255, 244, 231, .4);
+    gap: 43px;
+}
+
+.home-reserve-title {
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    line-height: 1.1;
+    color: #311F09;
+
+    span {
+        display: block;
+        color: #FF8A00;
+    }
+}
+
+.home-reserve-desc {
+    width: 433.11px;
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 2;
+    color: #5C4529;
+}
+
+.home-reserve-link {
+    display: block;
+    width: 232.42px;
+    margin-top: 132px;
+    padding-top: 17.22px;
+    padding-bottom: 17.22px;
+    background-color: #FF8A00;
+    border-radius: 162.94px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.home-team {
+    margin-top: 175.53px;
+}
+
+.home-team-title {
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    line-height: 200%;
+    text-align: center;
+    color: #311F09;
+}
+
+.home-team-box {
+    margin-top: 135px;
+    margin-left: 164px;
+    gap: 40px;
+}
+
+.home-team-item {
+    width: 344px;
+
+    .team-item-name {
+        margin-top: 40px;
+        font-weight: 600;
+        font-size: 25px;
+        text-align: center;
+        line-height: 200%;
+        color: #311F09;
+    }
+
+    .team-item-pos {
+        margin-top: 30px;
+        font-size: 25px;
+        text-align: center;
+        line-height: 200%;
+        color: #A08D76;
+    }
+}
+
+.home-team-link {
+    display: block;
+    width: 235px;
+    margin: 150px auto 0;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: #FF8A00;
+    border-radius: 162.94px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.home-testimonial {
+    margin-top: 271px;
+    padding-top: 120px;
+    padding-bottom: 99.52px;
+    background: rgba(208, 204, 199, .1) url("/public/images/home-testimonial-bg.png") no-repeat;
+
+    .user-more {
+        margin-left: 233.22px;
+    }
+}
+
+.home-testimonial-title {
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    line-height: 200%;
+    text-align: center;
+    color: #311F09;
+}
+
+.home-testimonial-review {
+    width: 617.54px;
+    margin: 57.38px auto 0;
+    text-align: center;
+    background: url("/public/images/review-bg.png") no-repeat;
+    background-position-y: 396px;
+
+    .user-name {
+        margin-top: 41.94px;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 200%;
+        color: #311F09;
+    }
+
+    .user-pos {
+        font-size: 20px;
+        line-height: 200%;
+        color: #5C4529;
+    }
+
+    .review-text {
+        width: 524.11px;
+        margin: 90px auto 0;
+        padding-bottom: 30px;
+        font-size: 20px;
+        line-height: 200%;
+        color: #5C4529;
+    }
 }
