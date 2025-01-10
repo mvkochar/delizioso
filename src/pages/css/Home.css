@@ -270,7 +270,7 @@
 .home-testimonial {
     margin-top: 271px;
     padding-top: 120px;
-    padding-bottom: 99.52px;
+    padding-bottom: 59.52px;
     background: rgba(208, 204, 199, .1) url("/public/images/home-testimonial-bg.png") no-repeat;
 
     .user-more {
@@ -314,5 +314,69 @@
         font-size: 20px;
         line-height: 200%;
         color: #5C4529;
+    }
+}
+
+.home-schedule{
+    margin: 238px 145px;
+    padding-top: 26px;
+    padding-bottom: 80.56px;
+    background: url('/public/images/home-schedule-bg.png') no-repeat;
+    color: #fff;
+}
+
+.home-schedule-title {
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    text-align: center;
+    line-height: 200%;
+    
+}
+
+.home-schedule-subtitle {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    line-height: 200%;
+}
+
+.home-schedule-content {
+    width: fit-content;
+    margin: 5px auto 0;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+    line-height: 200%;
+
+    .sunday-schedule {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+.home-schedule-actions {
+    width: fit-content;
+    margin: 50px auto 0;
+    gap: 23.58px;
+}
+
+.home-schedule-link {
+    display: block;
+    width: 232.42px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    border-radius: 162.94px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+
+    &:nth-child(1) {
+        background-color: #FF8A00;
+        color: #fff;
+    }
+
+    &:nth-child(2) {
+        background-color: rgba(255, 255, 255, 0.95);
+        color: #311F09;
     }
 }

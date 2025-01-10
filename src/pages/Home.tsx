@@ -120,6 +120,24 @@ const Home = () => {
                 </div>
                 <div className="user-more"><img src="/images/users.png" alt="users" /></div>
             </section>
+            <section className="home-schedule">
+                <h2 className="home-schedule-title">we are open from</h2>
+                <h4 className="home-schedule-subtitle">Monday-Sunday</h4>
+                <div className="home-schedule-content d-f">
+                    <div>Launch &nbsp; :  &nbsp; Mon-Sun  &nbsp; :  &nbsp; 11:00am-02:00pm</div>
+                    <div className="d-f">
+                        <div>Dinner &nbsp; : &nbsp; sunday  &nbsp; :  &nbsp; </div>
+                        <div className='sunday-schedule d-f'>
+                            <div>04:00pm-08:00pm</div>
+                            <div>04:00pm-09:00pm</div>
+                        </div>
+                    </div>
+                </div>
+                <div className="home-schedule-actions d-f">
+                    <a href="" className="home-schedule-link">Order now</a>
+                    <a href="" className="home-schedule-link">Reservation</a>
+                </div>
+            </section>
         </>
     )
 }
