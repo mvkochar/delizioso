@@ -1,0 +1,68 @@
+.menu-title {
+    margin-top: 49px;
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    text-align: center;
+    line-height: 200%;
+    color: #311F09;
+}
+
+.menu-categories {
+    margin-top: 60.07px;
+    margin-left: 164px;
+    gap: 27.48px;
+
+    .categories-btn {
+        width: 192.42px;
+        padding-top: 17.22px;
+        padding-bottom: 17.22px;
+        background-color: rgba(208, 204, 199, .1);
+        border: 1px solid rgba(208, 204, 199, .1);
+        border-radius: 162.94px;
+        cursor: pointer;
+        font-size: 20px;
+        color: #311F09;
+    }
+
+    .categories-btn__active {
+        background-color: #311F09;
+        border: 1px solid #311F09;
+        color: #fff;
+    }
+}
+
+.menu-box {
+    margin-top: 60px;
+    margin-left: 164px;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 40.25px;
+}
+
+.menu-pagination {
+    width: fit-content;
+    margin: 88.57px auto 215.5px;
+    gap: 30px;
+
+    .pagination-btn {
+        width: 55px;
+        height: 55px;
+        background-color: rgba(255, 138, 0, .1);
+        border: 1px solid rgba(255, 138, 0, .1);
+        border-radius: 15px;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 16px;
+        color: #FF8A00;
+    }
+
+    .pagination-action {
+        background-color: #311F09;
+        border: 1px solid #311F09;
+    }
+
+    .pagination-more {
+        background-color: transparent;
+        border: none;
+    }
+}

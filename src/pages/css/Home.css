@@ -122,8 +122,8 @@
     width: 192.42px;
     padding-top: 17.22px;
     padding-bottom: 17.22px;
-    background-color: #D0CCC7;
-    border: 1px solid #D0CCC7;
+    background-color: rgba(208, 204, 199, .1);
+    border: 1px solid rgba(208, 204, 199, .1);
     border-radius: 162.94px;
     cursor: pointer;
     font-size: 20px;
@@ -317,7 +317,7 @@
     }
 }
 
-.home-schedule{
+.home-schedule {
     margin: 238px 145px;
     padding-top: 26px;
     padding-bottom: 80.56px;
@@ -330,7 +330,7 @@
     font-size: 80px;
     text-align: center;
     line-height: 200%;
-    
+
 }
 
 .home-schedule-subtitle {

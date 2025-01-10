@@ -1,0 +1,80 @@
+.about-bl-first {
+    margin-top: 9px;
+    gap: 67.45px;
+}
+
+.about-title,
+.about-owner-pos {
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    line-height: 110%;
+    color: #311F09;
+
+    span {
+        color: #FF8A00;
+    }
+}
+
+.about-bl-text {
+    font-size: 20px;
+    line-height: 200%;
+    color: #5C4529;
+}
+
+.about-bl-first .about-bl-text {
+    width: 424px;
+    margin-top: 60px;
+}
+
+.about-bl-second {
+    margin-top: -22px;
+    margin-left: 164px;
+    gap: 45px;
+}
+
+.about-bl-second .about-bl-text {
+    width: 447px;
+}
+
+.about-owner {
+    margin-top: 130.45px;
+    margin-bottom: 135px;
+    margin-left: 164px;
+    gap: 103px;
+}
+
+.about-owner-name {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000;
+}
+
+.about-owner-quote {
+    width: 495px;
+    margin-top: 47px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 200%;
+    color: #5C4529;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 92px;
+        margin-bottom: -60px;
+        background: url("/public/images/quote1.png") no-repeat;
+    }
+
+    &::after {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 92px;
+        background: url("/public/images/quote2.png") no-repeat;
+        margin-top: 10px;
+        margin-left: 92%;
+    }
+}
