@@ -1,0 +1,127 @@
+.contact-main {
+    margin-top: 87px;
+}
+
+.contact-main-title {
+    font-family: "Tinos", serif;
+    font-size: 90px;
+    text-align: center;
+    color: #311F09;
+}
+
+.contact-main-desc {
+    max-width: 974px;
+    margin: 36px auto 0;
+    font-size: 25px;
+    text-align: center;
+    color: #5C4529;
+}
+
+.contact-main-fm {
+    margin-top: 108px;
+    margin-left: 164px;
+
+    .input-bl {
+        gap: 32px;
+        margin-bottom: 50px;
+    }
+
+    input, textarea {
+        display: block;
+        padding-left: 80px;
+        background-color: rgba(208, 204, 199, .1);
+        border: 1px solid rgba(208, 204, 199, .1);
+        border-radius: 20px;
+        outline: none;
+        font-size: 25px;
+        color: #A0978C;
+
+        &::placeholder {
+            color: #A0978C;
+        }
+    }
+    
+    input {
+        width: 540px;
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+
+    textarea {
+        width: 1112px;
+        height: 385px;
+        padding-top: 60px;
+        resize: none;
+    }
+
+    button {
+        display: block;
+        width: 540px;
+        margin-top: 100px;
+        margin-left: 286px;
+        margin-right: 286px;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        background-color: #FF8A00;
+        border: 1px solid #FF8A00;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 25px;
+        color: #fff;
+    }
+}
+
+.contact-map {
+    height: 668.72px;
+    margin-top: 114.28px;
+    margin-bottom: -6px;
+    position: relative;
+}
+
+.contact-map-location {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 116px;
+    left: 45%;
+}
+
+.contact-map-direction {
+    width: 739.33px;
+    padding-top: 14.2px;
+    position: absolute;
+    top: 181px;
+    left: 329px;
+
+    .direction-close {
+        display: block;
+        margin-bottom: -34px;
+        margin-left: 93%;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .direction-content {
+        padding-top: 17.82px;
+        padding-bottom: 44.54px;
+        padding-left: 17.82px;
+        padding-right: 32.96px;
+        background: url("/public/images/direction-content-bg.png") no-repeat;
+    }
+
+    .direction-title {
+        font-weight: 600;
+        font-size: 22.27px;
+        line-height: 110%;
+        color: #311F09;
+    }
+
+    .direction-desc {
+        margin-top: 22.27px;
+        font-size: 17.82px;
+        line-height: 153%;
+        color: #311F09;
+    }
+}
