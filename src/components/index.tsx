@@ -3,5 +3,6 @@ import Main from "./Main"
 import Footer from "./Footer"
 import ProductsItem from "./ProductsItem/ProductsItem"
 import ProductsList from "./ProductsList"
+import Sign from "./Sign/Sign"
 
-export { Header, Main, Footer, ProductsItem, ProductsList }
+export { Header, Main, Footer, ProductsItem, ProductsList, Sign }

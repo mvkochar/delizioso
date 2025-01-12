@@ -1,0 +1,132 @@
+.sign-title {
+    margin-top: 177px;
+    margin-bottom: 17px;
+    margin-left: 94px;
+    font-family: "Raleway", serif;
+    font-size: 40px;
+    color: #311F09;
+}
+
+.sign-note {
+    font-size: 14px;
+    line-height: 200%;
+    color: #5C4529;
+}
+
+.sign-action {
+    display: block;
+    margin-left: 4px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 200%;
+    color: #0094FF;
+}
+
+.sign-fm {
+    margin-top: 50px;
+    margin-left: 94px;
+
+    .input-bl {
+        margin-bottom: 30px;
+
+        label {
+            font-weight: 500;
+            font-size: 14px;
+            color: #311F09;
+        }
+
+        input {
+            width: 411.11px;
+            margin-top: 15px;
+            padding-top: 19px;
+            padding-bottom: 19.04px;
+            padding-left: 30.55px;
+            background-color: rgba(208, 204, 199, .1);
+            border: 1px solid rgba(208, 204, 199, .1);
+            border-radius: 10px;
+            outline: none;
+            font-size: 14px;
+            color: #311F09;
+
+            &::placeholder {
+                color: #311F09;
+            }
+        }
+
+        &:nth-child(2) {
+            margin-bottom: 0;
+        }
+    }
+
+    input, label {
+        display: block;
+    }
+    
+    .sign-details {
+        margin-top: 40px;
+        gap: 114.38px;
+    }
+
+    .check-bl {
+        gap: 16.87px;
+
+        input {
+            width: 25.3px;
+            height: 25.3px;
+        }
+
+        label {
+            font-size: 14px;
+            color: #5C4529;
+        }
+    }
+
+    .sign-change-btn {
+        display: block;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        color: #5C4529;
+    }
+
+    .sign-submit {
+        display: block;
+        width: 414.11px;
+        margin-top: 30px;
+        padding-top: 19px;
+        padding-bottom: 19.04px;
+        background-color: #FF8A00;
+        border: 1px solid #FF8A00;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .sign-google {
+        display: block;
+        width: 414.11px;
+        margin-top: 20px;
+        padding-top: 19px;
+        padding-bottom: 19.4px;
+        padding-left: 159.65px;
+        background: url("/public/images/google.png") no-repeat 106.27px;
+        border: 1px solid rgba(182, 163, 139, .8);
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #311F09;
+    }   
+}
+
+.sign-copyright {
+    margin-top: 178.55px;
+    font-size: 14px;
+    text-align: center;
+    color: #C7BFB6;
+}

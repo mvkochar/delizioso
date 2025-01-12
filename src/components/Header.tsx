@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/Header.css'
 import { Link } from 'react-router-dom'
+import Sign from './Sign/Sign'
 
 const Header = () => {
     return (
@@ -21,7 +22,7 @@ const Header = () => {
                     <div className='header-cart-img'><img src="/images/cart.png" alt="cart" /></div>
                     <div className="header-cart-count">3</div>
                 </div>
-                <button className='header-login'>Log in</button>
+               <Sign/>
             </div>
         </header>
     )
