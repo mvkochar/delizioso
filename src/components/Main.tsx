@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { About, Contact, Home, Menu, Reservation } from '../pages'
+import { About, Contact, Home, Menu, OrderOnline, Reservation } from '../pages'
 
 const Main = () => {
   return (
@@ -11,19 +11,23 @@ const Main = () => {
       />
       <Route
         path='menu'
-        element={<Menu/>}
+        element={<Menu />}
       />
       <Route
         path='about'
-        element={<About/>}
+        element={<About />}
       />
       <Route
         path='reservation'
-        element={<Reservation/>}
+        element={<Reservation />}
       />
       <Route
         path='contact'
-        element={<Contact/>}
+        element={<Contact />}
+      />
+      <Route
+        path='order-online'
+        element={<OrderOnline />}
       />
     </Routes>
   )

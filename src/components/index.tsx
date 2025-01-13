@@ -4,5 +4,7 @@ import Footer from "./Footer"
 import ProductsItem from "./ProductsItem/ProductsItem"
 import ProductsList from "./ProductsList"
 import Sign from "./Sign/Sign"
+import ProductsItemLittle from "./ProductsItemLittle/ProductsItemLittle"
+import { PastaList, PizzaList } from "./ProductsOrderList"
 
-export { Header, Main, Footer, ProductsItem, ProductsList, Sign }
+export { Header, Main, Footer, ProductsItem, ProductsList, Sign, ProductsItemLittle, PastaList, PizzaList }
