@@ -90,6 +90,7 @@
 
 .order-list {
     width: 343px;
+    height: fit-content;
     padding-top: 20px;
     padding-bottom: 50px;
     background: #FFFFFF;
@@ -106,4 +107,135 @@
     font-weight: 600;
     font-size: 30px;
     color: #fff;
+}
+
+.order-list-products {
+    margin-top: 58px;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-direction: column;
+    gap: 50px;
+
+    .product-title {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 200%;
+        color: #000;
+    }
+
+    .product-count {
+        width: 118px;
+        background-color: #FAFAF9;
+        border-radius: 83.1px;
+        gap: 20.17px;
+    }
+
+    .product-count-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 33.24px;
+        height: 33.24px;
+        background-color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        box-shadow: 3.32394px 3.32394px 4.98592px rgba(255, 79, 79, 0.07);
+        border-radius: 83.0986px;
+        cursor: pointer;
+    }
+
+    .product-count-val {
+        font-size: 16.62px;
+        color: #000;
+    }
+
+    .product-res {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 200%;
+        color: #FF8A00;
+    }
+}
+
+.order-list .voucher {
+    margin-top: 49px;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    border-top: 0.5px dashed #D0CCC7;
+    border-bottom: 0.5px dashed #D0CCC7;
+
+    .voucher-title {
+        font-weight: 600;
+        font-size: 25px;
+        color: #000;
+    }
+
+    .voucher-fm {
+        margin-top: 20px;
+
+        input {
+            width: 201px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background-color: #FAFAF9;
+            border: 1px solid #FAFAF9;
+            border-radius: 15px;
+            font-size: 20px;
+            text-align: center;
+            color: #0875C3;
+
+            &::placeholder {
+                text-transform: uppercase;
+                color: #0875C3;
+            }
+        }
+
+        button {
+            width: 60px;
+            height: 60px;
+            margin-left: 22px;
+            background-color: #53A5E0;
+            border: 1px solid #53A5E0;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+    }
+}
+
+.order-list .product-price-box {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 39px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    .product-price-title {
+        font-weight: 600;
+        font-size: 25px;
+        color: #000;
+    }
+
+    .product-price-val {
+        font-weight: 500;
+        font-size: 25px;
+        color: #FF8A00;
+    }
+}
+
+.order-list .order-checkout-btn {
+    display: block;
+    width: 283px;
+    margin-top: 60px;
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #3FC66E;
+    border: 1px solid #3FC66E;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 200%;
+    color: #FFFFFF;
 }
