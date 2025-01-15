@@ -223,7 +223,7 @@
     }
 }
 
-.order-list .order-checkout-btn {
+.order-list .order-checkout-link {
     display: block;
     width: 283px;
     margin-top: 60px;
@@ -231,11 +231,10 @@
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #3FC66E;
-    border: 1px solid #3FC66E;
     border-radius: 15px;
-    cursor: pointer;
     font-weight: 600;
     font-size: 25px;
     line-height: 200%;
+    text-align: center;
     color: #FFFFFF;
 }

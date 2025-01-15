@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/OrderOnline.css'
 import { PastaList, PizzaList, ProductsItemLittle } from '../components'
+import { Link } from 'react-router-dom'
 
 const OrderOnline = () => {
     return (
@@ -196,7 +197,7 @@ const OrderOnline = () => {
                             <div className="product-price-val">&#36;76.8</div>
                         </div>
                     </div>
-                    <button className='order-checkout-btn'>Checkout</button>
+                    <Link to='/checkout' className='order-checkout-link'>Checkout</Link>
                 </div>
             </div>
         </>

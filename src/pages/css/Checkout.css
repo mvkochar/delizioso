@@ -1,0 +1,227 @@
+.checkout-caption {
+    margin-top: 87px;
+    margin-left: 164px;
+    gap: 341px;
+}
+
+.checkout-title {
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    color: #311F09;
+}
+
+.checkout-content {
+    margin-top: 120px;
+    margin-bottom: 178px;
+    margin-left: 164px;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.checkout-bl-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 110%;
+    color: #000;
+}
+
+.checkout-address {
+    margin-top: 60px;
+
+    input {
+        width: 866px;
+        padding-top: 31px;
+        padding-bottom: 31px;
+        padding-left: 80px;
+        background-color: rgba(208, 204, 199, .1);
+        border: 1px solid rgba(208, 204, 199, .1);
+        border-radius: 20px;
+        outline: none;
+        font-size: 25px;
+        line-height: 153%;
+        color: #311F09;
+    }
+
+    button {
+        width: 214px;
+        margin-left: 32px;
+        padding-top: 31px;
+        padding-bottom: 31px;
+        background-color: #749FE0;
+        border: 1px solid #749FE0;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 25px;
+        line-height: 153%;
+        color: #fff;
+    }
+}
+
+.checkout-data {
+    margin-top: 60px;
+
+    .input-bl {
+        gap: 32px;
+        margin-bottom: 50px;
+    }
+
+    input {
+        display: block;
+        width: 540px;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        padding-left: 80px;
+        background-color: rgba(208, 204, 199, .1);
+        border: 1px solid rgba(208, 204, 199, .1);
+        border-radius: 20px;
+        outline: none;
+        font-size: 25px;
+        line-height: 110%;
+        color: #A0978C;
+
+        &::placeholder {
+            color: #A0978C;
+        }
+    }
+
+    .phone-wr {
+        width: 540px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        background-color: rgba(208, 204, 199, .1);
+        border: 1px solid rgba(208, 204, 199, .1);
+        border-radius: 20px;
+
+        input {
+            width: 60%;
+            margin-left: 20px;
+            padding-top: 21px;
+            padding-bottom: 21px;
+            background-color: transparent;
+            border: none;
+        }
+    }
+
+    .country-wr {
+        width: 157px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-left: 43px;
+        padding-right: 19.70px;
+        background-color: #fff;
+        border-radius: 10px;
+        gap: 21px;
+    }
+
+    textarea {
+        display: block;
+        width: 1112px;
+        height: 277px;
+        padding-top: 40px;
+        padding-left: 80px;
+        background-color: rgba(208, 204, 199, .1);
+        border: 1px solid rgba(208, 204, 199, .1);
+        border-radius: 20px;
+        outline: none;
+        resize: none;
+        font-size: 25px;
+        line-height: 110%;
+        color: #A0978C;
+
+        &::placeholder {
+            color: #A0978C;
+        }
+    }
+}
+
+.checkout-time, .checkout-method {
+    margin-top: 60px;
+    gap: 80px;
+
+    input, label  {
+        display: block;
+    }
+
+    .radio-bl {
+       gap: 28px;
+       align-items: center;
+    }
+
+    input {
+        width: 44px;
+        height: 44px;
+    }
+
+    label {
+        font-size: 25px;
+        color: #311F09;
+    }
+}
+
+.checkout-payment {
+    margin-top: 60px;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 60px;
+
+    .radio-bl {
+        width: 540px;
+        padding-top: 28px;
+        padding-bottom: 28px;
+        padding-left: 55px;
+        background-color: rgba(208, 204, 199, .1);
+        border-radius: 20px;
+        gap: 28px;
+        align-items: center;
+    }
+
+    input, label {
+        display: block;
+    }
+
+    input {
+        width: 44px;
+        height: 44px;
+    }
+
+    label {
+        font-size: 25px;
+        color: #311F09;
+    }
+}
+
+.checkout-choose {
+    margin-top: 33px;
+    gap: 20px;
+
+    input, label {
+        display: block;
+    }
+
+    input {
+        width: 44px;
+        height: 44px;
+    }
+
+    label {
+        font-size: 30px;
+        color: #311F09;
+    }
+}
+
+.checkout-order-link {
+    display: block;
+    width: 540px;
+    margin-top: -14px;
+    margin-left: 286px;
+    padding-top: 34px;
+    padding-bottom: 33px;
+    background-color: #FF8A00;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 110%;
+    text-align: center;
+    color: #fff;
+}
