@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/Reservation.css'
+import { ConfirmReservation } from '../components'
 
 const Reservation = () => {
   return (
@@ -23,7 +24,7 @@ const Reservation = () => {
                         <option value="0">Party size</option>
                     </select>
                 </div>
-                <button type="button">Book now</button>
+                <ConfirmReservation/>
             </form>
         </div>
     </div>
