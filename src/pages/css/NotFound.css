@@ -1,0 +1,40 @@
+.nf-main {
+    margin-top: 96px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.nf-main-title {
+    font-weight: 600;
+    font-size: 144px;
+    color: var(--primary-light);
+}
+
+.nf-main-subtitle {
+    margin-top: 21px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    color: var(--primary-light);
+}
+
+.nf-main-desc {
+    max-width: 421px;
+    margin: 19px auto 0;
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--gray-light);
+}
+
+.nf-main-link {
+    display: block;
+    width: 133px;
+    margin: 22px auto 0;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background: var(--accent-light) url("/public/images/arrow-right.png") no-repeat 114px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}

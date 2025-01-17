@@ -8,4 +8,8 @@ import ProductsItemLittle from "./ProductsItemLittle/ProductsItemLittle"
 import { PastaList, PizzaList } from "./ProductsOrderList"
 import ConfirmReservation from "./ConfirmReservation/ConfirmReservation"
 
-export { Header, Main, Footer, ProductsItem, ProductsList, Sign, ProductsItemLittle, PastaList, PizzaList, ConfirmReservation }
+
+export {
+    Header, Main, Footer, ProductsItem, ProductsList, Sign,
+    ProductsItemLittle, PastaList, PizzaList, ConfirmReservation
+}

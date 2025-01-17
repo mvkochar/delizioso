@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { About, Checkout, Contact, Home, Menu, OrderOnline, Reservation } from '../pages'
+import { About, Checkout, Contact, Home, Menu, NotFound, OrderOnline, Reservation } from '../pages'
 
 const Main = () => {
   return (
@@ -32,6 +32,10 @@ const Main = () => {
       <Route
         path='checkout'
         element={<Checkout/>}
+      />
+      <Route
+        path='*'
+        element={<NotFound/>}
       />
     </Routes>
   )

@@ -27,19 +27,18 @@ const Footer = () => {
         <div>
           <h3 className="footer-bl-title">Page</h3>
           <ul className="footer-bl-list">
-            <li><a href="">Home</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Order online</a></li>
-            <li><a href="">Catering</a></li>
-            <li><a href="">Reservation</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/menu">Menu</Link></li>
+            <li><Link to="/order-online">Order online</Link></li>
+            <li><Link to="/catering">Catering</Link></li>
           </ul>
         </div>
         <div>
           <h3 className="footer-bl-title">Information</h3>
           <ul className="footer-bl-list">
-            <li><a href="">About us</a></li>
-            <li><a href="">Testimonial</a></li>
-            <li><a href="">Events</a></li>
+            <li><Link to="/about">About us</Link></li>
+            <li><Link to="/testimonial">Testimonial</Link></li>
+            <li><Link to="/events">Events</Link></li>
           </ul>
         </div>
         <div>

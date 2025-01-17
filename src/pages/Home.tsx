@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/Home.css'
 import { ProductsItem, ProductsList } from '../components'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -14,8 +15,8 @@ const Home = () => {
                         dictum arcu sit tristique donec eget.
                     </p>
                     <div className="home-main-actions d-f">
-                        <a href="" className="home-main-link">Order now</a>
-                        <a href="" className="home-main-link">Reservation</a>
+                        <Link to="/order-online" className="home-main-link">Order now</Link>
+                        <Link to="/reservation" className="home-main-link">Reservation</Link>
                     </div>
                 </div>
                 <div><img src="/images/home-main.png" alt="home-main" /></div>
@@ -28,7 +29,7 @@ const Home = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Facilisis ultricies at eleifend proin. Congue nibh nulla malesuada ultricies nec quam
                     </p>
-                    <a href="" className="home-welcome-link">See our menu</a>
+                    <Link to="/menu" className="home-welcome-link">See our menu</Link>
                 </div>
             </section>
             <section className="home-popular">
@@ -83,7 +84,7 @@ const Home = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ultricies
                         at eleifend proin. Congue nibh nulla malesuada ultricies nec quam
                     </p>
-                    <a href="" className="home-reserve-link">Reservation</a>
+                    <Link to="/reservation" className="home-reserve-link">Reservation</Link>
                 </div>
             </section>
             <section className="home-team">
@@ -105,7 +106,7 @@ const Home = () => {
                         <p className="team-item-pos">Chef</p>
                     </div>
                 </div>
-                <a href="" className="home-team-link">View all</a>
+                <Link to="/team" className="home-team-link">View all</Link>
             </section>
             <section className="home-testimonial">
                 <h2 className="home-testimonial-title">Our customers say</h2>
@@ -134,8 +135,8 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="home-schedule-actions d-f">
-                    <a href="" className="home-schedule-link">Order now</a>
-                    <a href="" className="home-schedule-link">Reservation</a>
+                    <Link to="/order-online" className="home-schedule-link">Order now</Link>
+                    <Link to="/reservation" className="home-schedule-link">Reservation</Link>
                 </div>
             </section>
         </>

@@ -94,7 +94,7 @@ const Checkout = () => {
                         Choose to indicate that you have read and agree to our Terms of use <br /> & Privacy Policy.
                     </label>
                 </form>
-                <a href="" className="checkout-order-link">Order now</a>
+                <Link to="/order-online" className="checkout-order-link">Order now</Link>
             </div>
         </>
     )
